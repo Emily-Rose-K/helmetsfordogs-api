@@ -1,7 +1,8 @@
 require 'sinatra'
 require 'stripe'
-# This is a sample test API key. Sign in to see examples pre-filled with your key.
-Stripe.api_key = 'sk_test_4eC39HqLyjWDarjtT1zdp7dc'
+
+
+Stripe.api_key =  ENV['STRIPE']
 set :static, true
 set :public_folder, File.join(File.dirname(__FILE__), '.')
 set :port, 4242
