@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Checkout the front end: [helmetsfordogs](https://github.com/Emily-Rose-K/helmetsfordogs-frontend)
 
-Things you may want to cover:
+## Database
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+currently the database only handles users and their passwords. I also used the backend for stipe payments (that don't work)
